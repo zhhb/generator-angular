@@ -1,4 +1,4 @@
-# AngularJS generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-angular.svg?branch=master)](http://travis-ci.org/yeoman/generator-angular)
+# AngularJS generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-angular.svg?branch=master)](http://travis-ci.org/yeoman/generator-angular) [![Gitter](https://img.shields.io/badge/Gitter-Join_the_Yeoman_chat_%E2%86%92-00d06f.svg)](https://gitter.im/yeoman/yeoman)
 
 > Yeoman generator for AngularJS - lets you quickly set up a project with sensible defaults and best practices.
 
@@ -15,6 +15,13 @@ For step-by-step instructions on using Yeoman and this generator to build a TODO
 Install `yo`, `grunt-cli`, `bower`, `generator-angular` and `generator-karma`:
 ```
 npm install -g grunt-cli bower yo generator-karma generator-angular
+```
+
+If you are planning on using Sass, you will need to first install Ruby and Compass:
+- Install Ruby by downloading from [here](http://rubyinstaller.org/downloads/) or use Homebrew
+- Install the compass gem:
+```
+gem install compass
 ```
 
 Make a new directory, and `cd` into it:
@@ -234,11 +241,6 @@ angular.module('demoApp')
   .controller('UserCtrl', demoApp.UserCtrl);
 ```
 
-
-A project can mix TypeScript, CoffeScript, and JavaScript files.
-
-To output JavaScript files, even if CoffeeScript (or TypeScript) files exist (the default is to output CoffeeScript files if the generator finds any in the project), use `--coffee=false` and/or `--typescript=false`.
-
 ### Minification Safe
 
 **tl;dr**: You don't need to write annotated code as the build step will
@@ -287,7 +289,7 @@ All of these can be updated with `bower update` as new versions of AngularJS are
 Yeoman generated projects can be further tweaked according to your needs by modifying project files appropriately.
 
 ### Output
-You can change the `app` directory by adding a `appPath` property to `bower.json`. For instance, if you wanted to easily integrate with Express.js, you could add the following:
+You can change the `app` directory by adding an `appPath` property to `bower.json`. For instance, if you wanted to easily integrate with Express.js, you could add the following:
 
 ```json
 {
@@ -324,6 +326,101 @@ When submitting a new feature, add tests that cover the feature.
 ## Changelog
 
 Recent changes can be viewed on Github on the [Releases Page](https://github.com/yeoman/generator-angular/releases)
+
+## Sponsors
+Love Yeoman work and community? Help us keep it alive by donating funds to cover project expenses! <br />
+[[Become a sponsor](https://opencollective.com/yeoman#support)]
+
+  <a href="https://opencollective.com/yeoman/backers/0/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/0/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/1/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/1/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/2/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/2/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/3/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/3/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/4/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/4/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/5/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/5/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/6/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/6/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/7/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/7/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/8/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/8/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/9/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/9/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/10/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/10/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/11/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/11/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/12/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/12/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/13/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/13/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/14/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/14/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/15/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/15/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/16/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/16/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/17/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/17/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/18/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/18/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/19/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/19/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/20/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/20/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/21/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/21/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/22/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/22/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/23/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/23/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/24/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/24/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/25/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/25/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/26/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/26/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/27/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/27/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/28/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/28/avatar">
+  </a>
+  <a href="https://opencollective.com/yeoman/backers/29/website" target="_blank">
+    <img src="https://opencollective.com/yeoman/backers/29/avatar">
+  </a>
 
 ## License
 
